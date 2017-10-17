@@ -167,6 +167,7 @@ class MailchimpController extends Controller
      */
     public function ReplicateCampaign($id)
     {
+        # config
         $config = $this->Config();
         $C = MailchimpCampaignModel::where('id', $id)->get()->first();
         $CLIST = MailchimpCampaignLanguageModel::where('campaign_id', $id)->where('reply_of', '!=', '0')->get();

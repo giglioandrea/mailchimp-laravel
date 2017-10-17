@@ -1,0 +1,10 @@
+{
+  "apikey": "f638f21e2bffe969a332cc585c244ede-us16",
+  "command": "List,Add,Replicate,Edit,UpdateLanguage",
+  "db_host": "46.254.36.76",
+  "db_name": "giglio_mailchimp",
+  "db_user": "giglio_mailchimp",
+  "db_psw": "yAEWT8yIWPTeCTsT",
+  "from_name": "Giglio.com",
+  "reply_to": "customercare@giglio.com"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "giglio/mailchimp",
+    "description": "A simple API for manage campaign on Mailchimp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Giglio.com",
+            "email": "giglio@giglio.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "models"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "drewm/mailchimp-api": "^2.4"
+    }
+}

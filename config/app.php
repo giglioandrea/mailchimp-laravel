@@ -168,6 +168,7 @@ return [
          * Package Service Providers...
          */
 
+        Giglio\Mailchimp\MailchimpServiceProvider::class,
         /*
          * Application Service Providers...
          */

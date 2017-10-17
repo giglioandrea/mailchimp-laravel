@@ -22,7 +22,8 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Giglio\\Mailchimp\\": "packages/giglio/mailchimp/src"
         }
     },
     "autoload-dev": {
